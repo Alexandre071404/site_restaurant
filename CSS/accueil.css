@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "GreatVibes-Regular" ;
+    src: url("../asset/GreatVibes-Regular.ttf") format("truetype");
+  }
+
+/*début slider*/
+.slider{
+    position: relative;
+    height: 75vh;
+    
+}
+
+.slidimg{
+    position: absolute;
+    opacity: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition:.7s;
+}
+
+.slidimg.activate{
+    opacity: 1;
+}
+
+
+
+.right,
+.left{
+    cursor: pointer;
+    font-size: 5rem;
+    position:absolute;
+    display: block;
+    padding-top: 29vh;
+    padding-bottom: 29vh;
+    color:white;
+    transform: translateY(-50%);
+    top:50% ;
+}
+
+.right{
+    padding-left: 35%;
+    right: 20px;
+}
+.left{
+    padding-right: 35%;
+    left : 20px;
+
+}
+.right:hover, .left:hover{
+    color:#C2151B;
+}
+
+/*fin slider*/
+
+.empty{
+    padding-top: 30px;
+
+    background-color:#6d071a ;
+    width: 100%;
+    text-align: center;
+    height: 12vh;
+}
+
+.empty h1{
+    color: white;
+    font-family: "GreatVibes-Regular" ;
+
+}
+
+span::first-letter{
+    font-family: "BeauRivage-Regular" ;
+}
+.aste{
+    color: gold;
+}
+h2{
+    font-size: 30px;
+    font-family: "GreatVibes-Regular" ;
+    padding-bottom: 15px;
+
+}
+.presentation,.prestations{
+    color:#6d071a ;
+    padding-top: 30px;
+    text-align: center;
+    width: 45%;
+    display: block;
+    margin: auto auto;
+    border-right:7px solid #6d071a;
+    border-left:7px solid #6d071a;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+
+}
+.prestations{
+    padding-bottom: 25px;
+}
+.contain{
+    padding-top: 30px;
+    text-align: center;
+    width: 45%;
+    display: block;
+    margin: auto auto;
+    border-right:7px solid white;
+    border-left:7px solid white;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+
+}
+.menu{
+    color:white ;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: auto auto;
+    background-color:#6d071a ;
+    
+
+}
+
+.menu p,.menu ul{
+    margin: auto auto;
+}
+.menu ul{
+   padding-top: 10px; 
+   padding-bottom: 10px; 
+
+   list-style: none;
+}
+
+.menu h2{
+    margin: auto auto;
+
+ }
+
+ footer h2{
+    padding-top:15px;
+ }
+
+
+form {
+    width: 45vw; 
+    margin: 0 auto; 
+    padding-bottom: 15px;
+    max-width: 300px;
+}
+
+label {
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box; 
+    border-radius: 10px;
+}
+textarea {
+    resize: none;
+}
+.reserve{
+    text-decoration: none;
+    color: white;
+    background-color: #6d071a;
+    display: block;
+    width: 45vw;
+    max-width: 300px;
+    margin: auto auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: 0.7s;
+}
+.reserve:hover{
+    background-color: white;
+    color: #6d071a;
+    border: 1px solid #6d071a;
+
+}
+
+.reserveimp{
+    text-decoration: none;
+    color: #6d071a;
+    background-color: white;
+    display: block;
+    width: 45vw;
+    max-width: 300px;
+    margin: auto auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #6d071a;
+    transition: 0.7s;
+}
+.reserveimp:hover{
+    background-color: #6d071a;
+    color: white;
+    border: 1px solid white;
+
+}
+input[type="submit"] {
+    background-color: white;
+    color: #6d071a ; 
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+input[type="submit"]:hover {
+    background-color:#6d071a ; 
+    color: white ;
+}

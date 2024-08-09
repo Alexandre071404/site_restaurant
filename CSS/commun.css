@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "GreatVibes-Regular" ;
+    src: url("../asset/GreatVibes-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "BeauRivage-Regular" ;
+    src: url("../asset/BeauRivage-Regular.ttf") format("truetype");
+  }
+html{scroll-behavior: smooth;}
+*,::before,::after{
+    margin:0;
+    padding:0;
+    }
+body{
+    height: 100vh;
+    min-width: 200px;
+}
+nav{
+    background-color:#6d071a ;
+    }
+nav li{
+    display:inline-block;
+    text-align:center;
+    width:24%;
+    }
+nav a{
+    font-family: "GreatVibes-Regular" ;
+    font-size: 40px;
+    padding:30px;
+    display:block;
+    color:white;
+    transition:0.7s;
+    text-decoration: none;}
+
+
+nav a:hover{
+    color:gold; 
+        }
+.A::first-letter{
+    font-family: "BeauRivage-Regular" ;
+}
+footer{
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    color: white;
+    background-color:#6d071a ;
+    }
+
+@media only screen and (max-width: 600px) {
+    nav a{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    nav a{
+
+        padding: 20px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    nav li{
+        width: 22%;}
+    nav a{
+
+        padding-left:0px ;
+        padding-right: 0px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-height: 360px) {
+    nav li{
+        width: 24%;}
+    nav a{
+
+        padding: 20px;
+
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="" />
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="CSS/commun.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <title>Abbracadabra | Réservation</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="A">Accueil</a></li>
+            <li><a href="index.html#menu" class="A">Menu</a></li>
+            <li><a href="index.html#presta">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Demandez une réservation</h1>
+        <p style="padding-bottom: 15px;">Remplissez ce formulaire afin de nous envoyer une demande de réservation nous répondrons à votre demande dans les plus brefs délais.</p>
+        <form action="" method="post">
+            <label>Nom<span>*</span> :
+            <input type="text" id="nom" name="nom" required></label><br>
+
+
+            <label>E-mail<span>*</span> :
+            <input type="email" id="email" name="email" required></label><br>
+                
+            <label>Téléphone :
+            <input type="tel" id="email" name="tel" ></label><br>
+    
+            
+    
+            <label>Date<span>*</span> :
+                <input type="date" id="date" name="date" value="" min="" max="" oninput="disableMondays()"/>
+            </label><br>
+            <label>Heure<span>*</span> :
+            <select id="heure" name="heure">
+            </select></label>
+            
+            <script src="js/Cren.js"></script>
+
+           
+    
+            <input type="submit" value="Envoyer">
+        </form>
+        <p style="font-size: 11px;"><span>*</span>Champs obligatoires</p>
+
+        <a href="contact.html">Nous contacter ➤</a>
+    </main>
+    <footer>
+        <ul>
+            <li id="tel"><img src="Images/appel-telephonique.png" alt="téléphone icone"><a href="tel:06.10.60.14.35"> 06.10.60.14.35</a></li>
+            <li><img src="Images/email.png" alt="Mail"><a href="mailto:Test@test.com">Test@test.com</a></li>
+        </ul>
+        <p>&copy; 2023 |  Mon Site Web. Tous droits réservés.</p>
+    
+    </footer>
+</body>
+</html>

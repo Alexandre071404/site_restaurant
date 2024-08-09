@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="" />
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="CSS/commun.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <title>Abbracadabra | Contact</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="A">Accueil</a></li>
+            <li><a href="index.html#menu" class="A">Menu</a></li>
+            <li><a href="index.html#presta">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Contactez-nous</h1>
+        <form action="traitement.php" method="post">
+            <label>Nom<span>*</span> :
+            <input type="text" id="nom" name="nom" required></label><br>
+    
+            <label>E-mail<span>*</span> :
+            <input type="email" id="email" name="email" required></label><br>
+    
+            <label>Message<span>*</span> :
+            <textarea id="message" name="message" required></textarea></label><br>
+    
+            <input type="submit" value="Envoyer">
+        </form>
+        <p style="font-size: 11px;"><span>*</span>Champs obligatoires</p>
+        <a href="reservation.html">Je souhaite faire une demande de réservation ➤</a>
+    </main>
+<footer>
+    <ul>
+        <li id="tel"><img src="Images/appel-telephonique.png" alt="téléphone icone"><a href="tel:06.10.60.14.35"> 06.10.60.14.35</a></li>
+        <li><img src="Images/email.png" alt="Mail"><a href="mailto:Test@test.com">Test@test.com</a></li>
+    </ul>
+    <p>&copy; 2023 |  Mon Site Web. Tous droits réservés.</p>
+
+</footer>
+
+</body>
+</html>

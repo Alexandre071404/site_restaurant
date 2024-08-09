@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "GreatVibes-Regular" ;
+    src: url("../asset/GreatVibes-Regular.ttf") format("truetype");
+  }
+  body{
+    background-color: #6d071a;
+
+  }
+  h1{
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-size: 300%;
+    text-align: center;
+    color: #6d071a;
+    font-family: "GreatVibes-Regular" ;
+
+}
+span{
+    color: #6d071a;
+}
+main{
+    text-align: center;
+    background-color: white;
+    padding-bottom: 32px;
+
+}
+form {
+    width: 45vw; 
+    border: 1px solid #6d071a;
+    margin: auto auto; 
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+label {
+    display: block;
+}
+
+select{
+    margin-bottom: 20px;
+}
+
+
+input, textarea,select {
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box; 
+    border-radius: 10px;
+}
+textarea {
+    resize: none;
+}
+
+input[type="submit"] {
+    background-color: #6d071a;
+    color: white ; 
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+input[type="submit"]:hover {
+    background-color:white ; 
+    color: #6d071a ;
+}
+
+main a{
+    display: block;
+    margin: auto auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    width: 50vw;
+    max-width: 400px;
+    background-color: #6d071a;
+    color: white;
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 8px;
+    transition:0.7s;
+}
+
+main a:hover{
+    color: #6d071a;
+    border:2px solid #6d071a;
+    background-color: white;
+}
+footer{
+    margin-top: 10px;
+}
+footer ul{
+    padding-top: 20px;
+}
+img{
+    width: 30px;
+    margin-right: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+footer a{
+    position: relative;
+    bottom: 10px;
+    transition: 1s;
+}
+footer a:hover{
+    color: gold;
+}
+
+@media only screen and (max-width: 1200px) {
+    footer{
+        position: relative;
+    }
+}
+@media only screen and (max-width: 360px) {
+
+    h1{
+        font-size: 150%;
+    }
+    label {
+        font-size: 10px;
+    }
+    footer p,main a,input[type="submit"],footer a {
+        font-size: 10px;
+    }
+    main a{
+        font-size: 10px;
+    }
+    
+}
+
+@media only screen and (max-height: 360px) {
+  
+    h1{
+        font-size: 150%;
+    }
+    label {
+        font-size: 10px;
+    }
+    footer p,main a,input[type="submit"],footer a {
+        font-size: 10px;
+    }
+    main a{
+        font-size: 10px;
+    }
+    ul{
+        padding-top: 2px;
+    }
+    img{
+        width: 20px;
+    }
+    footer{
+        position: relative;
+    }
+}
